@@ -21,6 +21,9 @@ public class MainActivity extends ActionBarActivity {
 		if (savedInstanceState == null) {
 			getSupportFragmentManager().beginTransaction()
 					.add(R.id.container, new PlaceholderFragment()).commit();
+//			test git
+//abdc
+//test develop new
 		}
 	}
 
