@@ -27,6 +27,8 @@ public class MainActivity extends ActionBarActivity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		int a = 3;
+		if(a==3){
+		}
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
@@ -59,6 +61,7 @@ public class MainActivity extends ActionBarActivity {
 			View rootView = inflater.inflate(R.layout.fragment_main, container,
 					false);
 			return rootView;
+			///////test
 		}
 	}
 
